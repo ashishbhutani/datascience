@@ -4,7 +4,7 @@ import sys
 mr = MapReduce.MapReduce()
 
 """
-See Problem statement #3 in README
+See Problem statement #6 in README
 """
 # We assume that matrix dimensions is known beforehand
 # A is MxK matrix, whereas B is KxN one
