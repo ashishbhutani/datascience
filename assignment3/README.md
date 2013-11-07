@@ -1,4 +1,5 @@
 //Problem statement of map reduce assignments
+
 Problem 1
 
 Create an Inverted index. Given a set of documents, an inverted index is a dictionary where each word is associated with a list of the document identifiers in which that word appears.  
@@ -20,6 +21,7 @@ You can test your solution to this problem using books.json:
         python inverted_index.py books.json
 
 You can verify your solution against inverted_index.json.
+
 Problem 2
 
 Implement a relational join as a MapReduce query
@@ -61,6 +63,7 @@ You can test your solution to this problem using records.json:
         python join.py records.json
 
 You can verify your solution against join.json.
+
 Problem 3
 
 Consider a simple social network dataset consisting of key-value pairs where each key is a person and each value is a friend of that person. Describe a MapReduce algorithm to count he number of friends each person has.
@@ -84,6 +87,7 @@ You can test your solution to this problem using friends.json:
         python friend_count.py friends.json
 
 You can verify your solution against friend_count.json.
+
 Problem 4
 
 The relationship "friend" is often symmetric, meaning that if I am your friend, you are my friend. Implement a MapReduce algorithm to check whether this property holds. Generate a list of all non-symmetric friend relationships.
@@ -107,6 +111,7 @@ You can test your solution to this problem using friends.json:
         python asymmetric_friendships.py friends.json
 
 You can verify your solution against asymmetric_friendships.json.
+
 Problem 5
 
 Consider a set of key-value pairs where each key is sequence id and each value is a string of nucleotides, e.g., GCTTCCGAAATGCTCGAA....
@@ -128,6 +133,7 @@ You can test your solution to this problem using dna.json:
         python unique_trims.py dna.json
 
 You can verify your solution against unique_trims.json.
+
 Problem 6
 
 Assume you have two matrices A and B in a sparse matrix format, where each record is of the form i, j, value.  Design a MapReduce algorithm to compute matrix multiplication: A x B
