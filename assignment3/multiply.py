@@ -1,10 +1,11 @@
-
 import MapReduce
 import sys
 
 mr = MapReduce.MapReduce()
 
-
+"""
+See Problem statement #3 in README
+"""
 # We assume that matrix dimensions is known beforehand
 # A is MxK matrix, whereas B is KxN one
 M = 5
