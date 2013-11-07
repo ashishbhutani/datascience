@@ -2,7 +2,7 @@ import MapReduce
 import sys
 
 """
-Word Count Example in the Simple Python MapReduce Framework
+See Problem statement #4 in README
 """
 
 mr = MapReduce.MapReduce()
